@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foodies</title>
+  
+</head>
+
+<body>
+  {{>navbar loginUser=loginUser}}
+  
+  <section id="/">
+    <div class="container-fluid px-0 top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6" style="align-content: center;">
+            <h1 style="color: white; align-item: center;">Welcome to SnackSpace</h1>
+            <p style="color: white; justify-content:right;">Snacking made easy....</p>
+              <br>
+              <br>
+              <br>
+              <br>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="counter">
+    <section class="counter-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count1">4568</span>+
+            </h2>
+            <p>SAVINGS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count2">675</span>+
+            </h2>
+            <p>PHOTOS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count3">567</span>+
+            </h2>
+            <p>FOODS</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count4">5673</span>+
+            </h2>
+            <p>CUSTOMERS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="about" class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="card col-md-7 ">
+          <img src="/static/image/img/img-1.png" class="img-fluid py-2" alt="">
+        </div>
+        <div class="col-md-5 mt-md-5 mt-1">
+          <h2>No more waiting around....</h2>
+          <p style="font-size: large;">Say goodbye to standing in long queues on a hungry stomach just to place your order. Enjoy hassle free online ordering and payment!</p>
+          {{!-- <button class="main-btn">Learn More</button> --}}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="service" class="container">
+    <div class="row">
+      <div class="col-md-5 mt-md-5 pt-md-5">
+        <h2>Tell us how you like your food!</h2>
+        <p>
+We now have food customization options and allergen information for every dish on the menu. 
+Your feedback is valuable: Let us know what you liked or did not like about your Dewsis experience!</p>
+        <div class="checks">
+          <span><i class="fa fa-check"></i> Control spice level</span><br>
+          <span><i class="fa fa-check"></i> Control sugar level</span><br>
+          <span><i class="fa fa-check"></i> Customize portion size</span>
+        </div>
+        {{!-- <button class="main-btn">Learn More</button> --}}
+      </div>
+      <div class="col-md-7">
+        <img src="/static/image/img/img-2.png" class="img-fluid" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="exploreFood">
+    <section class="container my-5">
+      <div class="text-center mx-md-5 px-md-5">
+        <h2 class="pb-0 mb-0">Best selling Items</h2>
+        <p>Explore our best selling items.</p>
+      </div>
+      <div class="row my-5 ">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/static/image/img/img-3.jpg" class="img-fluid mb-2" alt="" style="height: 500px;">
+            <h4>Samosa</h4>
+            <p class="text-color">Time : 15-20 Minutes </p>
+            <h2 class="primary-color mb-3"> <i class="fa fa-inr"></i>8  <del class="text-muted"><i
+                  class="fa fa-inr"></i>10</del></h2>
+            <div>
+              <button class="main-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card ">
+            <img src="/static/image/img/img-4.jpg" class="img-fluid mb-2" alt="" style="height: 500px;">
+            <h4>Paneer Tikka Sandwich</h4>
+            <p class="text-color">Time : 20-25 Minutes</p>
+            <h2 class="primary-color mb-3"> <i class="fa fa-inr"></i>70  <del class="text-muted"><i
+                  class="fa fa-inr"></i>85</del></h2>
+            <div>
+              <button class="main-btn" style="align-items: center;">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card ">
+            <img src="/static/image/img/img-5.jpg" class="img-fluid mb-2" alt="" style="height: 500px;">
+            <h4>Filter coffee</h4>
+            <p class="text-color">Time : 5-10 Minutes </p>
+            <h2 class="primary-color mb-3"> <i class="fa fa-inr"></i>20  <del class="text-muted"><i
+                  class="fa fa-inr"></i>25</del></h2>
+            <div>
+              <button class="main-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="testinomial">
+    <div class="container my-5 mx-md-5 px-md-5">
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item text-center active">
+            <img style="width:150px;height:auto;border-radius:50%" src="/static/image/review/review-1.jpg" alt="...">
+            <div class="my-4">
+              <h4 class="">Gautam Khokhar</h4>
+              <p class="text-light">I loved the food here, and the service was impeccable!</p>
+            </div>
+          </div>
+          <div class="carousel-item text-center ">
+            <img style="width:150px;height:auto; border-radius:50%" src="/static/image/review/review-2.jpg" alt="...">
+            <div class="my-4">
+              <h4 class="">Hrida Gupta</h4>
+              <p class="text-light">I loved the taste of honey chilli potato it's like a five-star restaurant inside college.</p>
+            </div>
+          </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="subscription">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="mb-0">Review SnackSpace</h2>
+        <p class="text-color">Review now!</p>
+        <div class="text-center my-5">
+          <form action="">
+            <div class="row">
+              <div class="col-md-4 offset-md-3 ">
+                          <input class="mt-1 form-control" type="text" placeholder="Enter Email Id...">
+              </div>
+               <div class="col-md-2 mt-2 ">
+                       <button class="main-btn">Sumbit</button>
+            </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+
+    <div class="text-center">
+      <a href="">Resiter</a>
+      <a href="">Forum</a>
+      <a href="">Affilate</a>
+      <a href="">FAQ</a><br>
+      <small class="mt-5 text-light">@ 2022. Foodie. All rights reserved.</small>
+    </div>
+  </section>
+
+ 
+</body>
+
+</html>

@@ -6,12 +6,12 @@ SnackSpace is a responsive web application designed for our college cafeteria to
 - **Online Ordering System**: Students can order food online, reducing queue times.
 - **Admin Panel**: Cafeteria staff can manage 100+ dishes, update availability, and track orders.
 - **Responsive Design**: Works across multiple devices for easy accessibility.
-- **Performance Improvement**: Decreased wait times by 40% and reduced manual effort by 60%.
+- **Purpose**: Decreased wait times and reduced manual effort.
 
 ## Technologies Used
-- HTML, CSS, JavaScript
-- Node.js
-- MongoDB
+- Frontend: React.js, HTML, CSS, JavaScript
+- Backend: Node.js, Express.js
+- Database: MongoDB
 
 ## Installation & Setup
 Follow these steps to set up and run the project locally:
@@ -32,9 +32,6 @@ Follow these steps to set up and run the project locally:
 
 ## Contributions
 This project was a collaborative effort developed during a college-level hackathon with guidance from 10+ mentors and continuous support from peers.
-
-## License
-This project is open-source. Feel free to contribute and improve!
 
 ---
 For any queries or contributions, feel free to raise an issue or submit a pull request in the repository!

@@ -29,6 +29,10 @@ Follow these steps to set up and run the project locally:
    ```sh
    npm run
    ```
+4. Open this address on your browser:
+   ```sh
+   http://localhost:5656
+   ```
 
 ## Contributions
 This project was a collaborative effort developed during a college-level hackathon with guidance from 10+ mentors and continuous support from peers.
